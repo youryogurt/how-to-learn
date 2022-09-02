@@ -2,7 +2,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .title{
@@ -83,40 +83,34 @@
 
 .description {
   display: flex;
-  border: 2px solid red;
 }
 
 .two-columns {
   display: flex;
   position: relative;
   width: 80%;
-  margin: 100px auto;
+  margin: 100px;
   display: flex;
   justify-content: space-between;
-  border: 2px solid red;
 }
 
 .brief {
-  /* position: absolute; */
-  left: 0;
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
+  margin: 0;
   font-weight: normal;
   color: #2f80ed;
-  border: 2px solid red;
-  margin: 0;
 }
 
 .main-text {
-  align-items: center;
-  justify-content: flex-end;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
   width: 80%;
   min-width: 784px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  border: 2px solid red;
+  min-height: 332px;
 }
 
 .paragraph {
@@ -126,8 +120,7 @@
   margin: 0;
 }
 
-
-.span {
+span {
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
@@ -135,10 +128,10 @@
 
 .digits {
   direction: flex;
+  margin-bottom: 100px;
 }
 
 .digits__title {
-  margin:auto;
   width: 60%;
   font-size: 60px;
   font-weight: 600;
@@ -161,10 +154,12 @@
   flex-wrap: wrap;
   align-items: baseline;
   justify-content:space-between;
+  border: 2px solid red;
 }
 
 .table__cell {
   width: 250px;
+  border: 2px solid red;
 }
 
 .heading{
