@@ -2,7 +2,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  font-family: Arial, sans-serif;
+  font-family:  'Helvetica Neue', Arial, sans-serif;
 }
 
 .title{
@@ -337,12 +337,11 @@ span {
 }
 
 .column_links__column-link {
-
+  display: flex;
+  align-items: center;
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
-  display: flex;
-  flex-direction: column;
   text-decoration: none;
   color: white;
 }
