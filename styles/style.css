@@ -133,7 +133,8 @@ span {
 }
 
 .digits__title {
-  /* width: 60%; */
+  width: 60%;
+  text-align: center;
   font-size: 60px;
   font-weight: 600;
   line-height: 1.15;
@@ -143,7 +144,8 @@ span {
 
 .digits__subtitle {
   margin:auto;
-  /* width: 60%; */
+  width: 60%;
+  text-align: center;
   font-size: 24px;
   line-height: 34px;
 }
@@ -156,13 +158,11 @@ span {
   justify-content: space-between;
   margin: 0 0 100px 0;
   padding-left: 0;
-  border: 2px solid red;
 }
 
 .table__cell {
   width: 250px;
   margin-top: 60px;
-  border: 2px solid red;
 }
 
 .heading {
@@ -184,6 +184,8 @@ span {
   background-color: #f2f2f2;
   display: flex;
   position: relative;
+  align-items: center;
+  flex-direction: column;
 }
 
 .feynman__title {
@@ -191,12 +193,16 @@ span {
   line-height: 1.15;
   width: 648px;
   position: absolute;
-  justify-content: center;
+  text-align: center;
+  margin: 100px 0 70px 0;
+  z-index: 1;
 }
 
 .feynman__subtitle {
   font-size: 36px;
   line-height: 51px;
+  margin: auto;
+  z-index: 1;
 }
 
 .feynman__link {
@@ -216,4 +222,76 @@ span {
   bottom: 0;
   width: 867px;
   height: 637px;
+}
+
+.kaufman{
+  background-color: #1f1f1f;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  right: -210px;
+  top: 0;
+  width: 877px;
+  height: 877px;
+  z-index: 1;
+}
+
+.kaufman__title_theme_dark {
+  width: 60%;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 90px 0 20px 0;
+  color: white;
+
+}
+
+.kaufman__subtitle_theme_dark {
+  margin:0;
+  width: 60%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 34px;
+  color: white;
+}
+
+.table_theme_dark {
+  flex-wrap: wrap;
+  display: flex;
+  width: 1100px;
+  list-style-type: none;
+  justify-content: space-between;
+  margin: 0 0 90px 0;
+  padding-left: 0;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+  z-index: 2;
+}
+
+.heading_theme_dark {
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+  color: white;
+}
+
+.text_theme_dark {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+  color: white;
 }
