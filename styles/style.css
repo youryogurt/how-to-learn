@@ -159,7 +159,7 @@ span {
   width: 1100px;
   list-style-type: none;
   justify-content: space-between;
-  margin: 0 0 80px 0;
+  margin: 0 0 100px 0;
   padding-left: 0;
 }
 
@@ -172,14 +172,14 @@ span {
   font-size: 24px;
   line-height: 1.15;
   font-weight: 600;
-  margin: 0 0 20px 0;
+  margin: 0;
 }
 
 .cell__text {
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
-  margin: 0 0 20px 0;
+  margin: 20px 0 0 0;
 }
 
 .feynman{
@@ -195,7 +195,6 @@ span {
   font-size: 120px;
   line-height: 1.15;
   width: 648px;
-  position: absolute;
   text-align: center;
   margin: 100px 0 70px 0;
   z-index: 1;
@@ -204,7 +203,7 @@ span {
 .feynman__subtitle {
   font-size: 36px;
   line-height: 51px;
-  margin: auto;
+  margin: 0 auto 0 auto;
   z-index: 1;
 }
 
@@ -328,33 +327,27 @@ span {
   font-size: 18px;
   line-height: 30px;
   font-weight: 600;
-  margin-top: 0;
-  margin-bottom: 20 px;
-}
-
-.column__column-links {
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: normal;
-  display: flex;
-  flex-direction: column;
   margin: 0;
 }
 
-.column__column-link {
+.column__column-links {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 16px 0;
+}
+
+.column_links__column-link {
+
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
   display: flex;
   flex-direction: column;
-}
-
-.column-link__social-icon {
   text-decoration: none;
   color: white;
 }
 
-.social-icon__logo-social-icon {
+.column-link__social-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
