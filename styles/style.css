@@ -72,7 +72,7 @@
 }
 
 .header__link:hover {
-  opacity 0.5;
+  opacity: 0.5;
   transition: opacity 1s;
 }
 
@@ -236,32 +236,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
 }
-
-/* .video__section-title {
-  position: absolute;
-  margin: 100px auto 20px auto;
-}
-
-.video__section-subtitle {
-  position: absolute;
-  margin: 0;
-} */
-/* здесь нужно доразобраться с видео с ютуба */
 
 .video__iframes {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* position: absolute;
-  margin-bottom: -50px; */
+  position: relative;
+  bottom: -50px;
 }
 
 .video__iframe {
   width: 515px;
   height: 316px;
-  margin-top: 50px;
 }
 
 .video__iframe:first-child {
@@ -578,8 +565,8 @@
 .resources__logo-zone {
   width: 1100px;
   margin: 80px auto 217px auto;
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
 }
 
 .resources__link {
