@@ -1,9 +1,9 @@
 .footer__logo-link {
-    width: 228px;
-    height: 32px;
+  width: 228px;
+  height: 32px;
 }
   
-  .footer__logo-link:hover {
-    opacity: 0.5;
-    transition: opacity 1s;
+.footer__logo-link:hover {
+  opacity: 0.5;
+  transition: opacity 1s;
 }
