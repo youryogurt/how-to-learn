@@ -40,11 +40,6 @@
   z-index: 3;
 }
 
-.header__link:hover {
-  opacity: 0.5;
-  transition: opacity 1s;
-}
-
 .header__logo-link:hover {
   opacity: 0.5;
   transition: opacity 1s;
@@ -109,6 +104,9 @@
   width: 568px;
   background-color: #2f80ed;
   z-index: 1;
+}
+
+.rotation {
   animation: rotation 20s linear infinite;
 }
 
@@ -124,7 +122,7 @@
   justify-content: space-between;
   width: 80%;
   min-width: 784px;
-  margin: 100px;
+  margin: 100px auto 0 auto;
 }
 
 .two-columns__brief {
@@ -172,31 +170,12 @@
   margin: 0 auto;
 }
 
-/* .section-title {
-  width: 60%;
-  text-align: center;
-  font-size: 60px;
-  font-weight: 600;
-  line-height: 1.15;
-  margin: 0 0 20px 0;
-
-} */
-
-.section-subtitle {
-  margin: 0 auto;
-  width: 60%;
-  text-align: center;
-  font-size: 24px;
-  line-height: 34px;
-  font-weight: normal;
-}
-
 .cards {
   display: flex;
   flex-wrap: wrap;
   width: 920px;
   list-style-type: none;
-  margin: 0 0 100px 0;
+  margin: 0;
   padding-left: 0;
 }
 
@@ -260,42 +239,6 @@
   flex-direction: column;
   justify-content: center;
   background-color: #f2f2f2;
-}
-
-.two-columns {
-  display: flex;
-  position: relative;
-  justify-content: space-between;
-  width: 80%;
-  min-width: 784px;
-  margin: 100px;
-}
-
-.two-columns__brief {
-  max-width: 175px;
-  width: 100%;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  margin: 0;
-  color: #2f80ed;
-}
-
-.two-columns__main-text {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 80%;
-  min-width: 784px;
-}
-
-.two-columns__paragraph {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin-top: 0;
-  margin-bottom: 30px;
 }
 
 .feynman{
@@ -398,8 +341,6 @@
   margin: 20px 0 0 0;
 }
 
-/* здесь ниже новая секция khan */
-
 .khan {
   background-color: #f2f2f2;
   display: flex;
@@ -475,8 +416,6 @@
   transition: opacity 1s;
 }
 
-/* здесь выше новая секция khan */
-
 .kaufman {
   background-color: #1f1f1f;
   display: flex;
@@ -496,7 +435,6 @@
   background-size: 877px 877px;
   background-repeat: no-repeat;
   background-position: top right;
-  animation: rotation 20s linear infinite;
 }
 
 .section-title_theme_dark {
@@ -554,8 +492,6 @@
   color: white;
 }
 
-/* здесь ниже новая секция resources */
-
 .resources {
   display: flex;
   flex-direction: column;
@@ -565,8 +501,6 @@
 .resources__logo-zone {
   width: 1100px;
   margin: 80px auto 217px auto;
-  /* display: flex;
-  flex-direction: row; */
 }
 
 .resources__link {
@@ -582,8 +516,6 @@
   width: 270px;
   height: 38px;
 }
-
-/* здесь выше новая секция resources */
 
 .footer {
   background-color: #1f1f1f;

@@ -1,0 +1,9 @@
+.two-columns {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 80%;
+    min-width: 784px;
+    /* почему-то не работает */
+    margin: 100px auto 0 auto;
+}
