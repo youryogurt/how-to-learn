@@ -1,0 +1,8 @@
+.video__item {
+  margin: 0;
+  padding: 0;
+}
+
+.video__item:first-child {
+  margin-right: 20px;
+}
